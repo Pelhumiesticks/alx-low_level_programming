@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - A program that prints all possible combinations of single-digit numbers
+ * main - A program that prints all possible combinations of 1-digit numbers
  * Return: 0 (Success)
  */
 int main(void)
@@ -21,5 +21,5 @@ putchar(' ');
 
 putchar('\n');
 
-return 0;
+return (0);
 }
