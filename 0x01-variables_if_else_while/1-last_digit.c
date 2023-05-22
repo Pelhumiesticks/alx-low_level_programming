@@ -4,10 +4,8 @@
 
 /*
  *  main - A code that assigns a random number to a variable n upon execution
- *  Return: Always return 0 (Success)
+ *  Return: 0 (Success)
  */
-
-
 int main(void)
 {
 	int n;
