@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - A program that prints all alphabet except q & e in lowercase using putchar
+ * main - A program that prints all alphabet except q & e in lowercase
  * Return: 0 (Success)
  */
 int main(void)
