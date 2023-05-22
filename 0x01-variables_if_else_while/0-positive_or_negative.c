@@ -1,11 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
-#include <limits.h>
 #include <stdio.h>
 
 /**
- * Main - Random number assignment
- * return: always 0 (Success)
+ * main - A code that assigns a random number each time it is executed
+ * Return: always return 0 (Success)
  */
 
 int main(void)
