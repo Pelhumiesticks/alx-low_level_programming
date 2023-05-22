@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - A program that prints all possible diff. combinations of 2-digit numbers
+ * main - A program that prints all possible different combinations of two digits
  * Return: 0 (Success)
  */
 int main(void)
@@ -17,7 +17,7 @@ putchar(num2 + '0');
 
 if (num1 != 8 || num2 != 9)
 {
-putchar(',')
+putchar(',');
 putchar(' ');
 }
 }
@@ -25,6 +25,5 @@ putchar(' ');
 
 putchar('\n');
 
-return 0;
+return (0);
 }
-
