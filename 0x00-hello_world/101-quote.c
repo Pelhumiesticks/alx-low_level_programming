@@ -6,6 +6,7 @@
  */
 int main(void)
 {
-write(2 "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+write(STDERR_FILENO, "and that piece of art is useful\" - ", 34);
+write(STDERR_FILENO, "Dora Korpar, 2015-10-19\n", 24);
 return (1);
 }
