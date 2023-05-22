@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /*
- *  main - The program assigns a random number to the variable upon execution
- *  Return: Always return 0 after successful execution
+ *  main - A code that assigns a random number to a variable n upon execution
+ *  Return: Always return 0 (Success)
  */
 
 
