@@ -1,22 +1,32 @@
-#include "main.h"
 #include <stdio.h>
 /**
- * print_square - prints a square line in the terminal
- * @n: number of times the character '#' should be printed
+ * main - program filters out the 99.5% of programming job
+ * i: i is the number of integers
  * Return: void
  */
 
-void print_square(int size)
+int main(void)
 {
 int i;
-if (size <= 0)
+for (i = 1; i <= 100; i++)
 {
-_putchar('\n');
-return;
-for (i = 0; i < n; i++)
+if (i % 3 == 0 && i % 5 == 0)
 {
-_putchar(' ');
+printf("FizzBuzz ");
 }
-_putchar('\n');
+else if (i % 3 == 0)
+{
+printf("Fizz ");
 }
-
+else if (i % 5 == 0)
+{
+printf("Buzz ");
+}
+else
+{
+printf("%d ", i);
+}
+}
+printf(" \n");
+return (0);
+}
